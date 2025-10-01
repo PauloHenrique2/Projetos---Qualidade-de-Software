@@ -16,4 +16,9 @@ public class Calculadora {
         historico.registrar(a + " - " + b + " = " + (a - b));
         return (a - b);
     }
+
+    public int multiplicar(int a, int b) {
+        historico.registrar(a + " x " + b + " = " + (a * b));
+        return (a * b);
+    }
 }
